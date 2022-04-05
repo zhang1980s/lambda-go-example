@@ -13,3 +13,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+#
+
+lark-auth/lark-auth*
+lark-auth-pointer/lark-auth-pointer*
