@@ -14,8 +14,8 @@ type MsgResponse struct {
 	Challenge string `json:"challenge"`
 }
 
-func HandleRequest(ctx context.Context, e Msg) (MsgResponse, error) {
-	return MsgResponse{
+func HandleRequest(ctx context.Context, e Msg) (*MsgResponse, error) {
+	return &MsgResponse{
 		e.Challenge,
 	}, nil
 }
